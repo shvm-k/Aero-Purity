@@ -1,7 +1,10 @@
-## Getting Started with Create React App
+## AEROPURITY
+AeroPurity provides interactive visualizations of air quality index (AQI) data and weather forecasts collected by the drones. Users can explore trends, patterns, and fluctuations in environmental conditions over time and across different locations.
+
+### Getting Started with Create React App
 This project was bootstrapped with Create React App.
 
-## Available Scripts
+### Available Scripts
 In the project directory, you can run:
 
 npm start
@@ -23,5 +26,5 @@ The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 
-## Deployment
+### Deployment
 Hosted on netlify https://aeropurity.netlify.app
