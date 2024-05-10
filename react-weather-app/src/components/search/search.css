@@ -1,0 +1,85 @@
+/* search.css */
+
+.search-container {
+    margin-top: 50px;
+    border-radius: 14px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.search-container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the input field */
+.react-select__input {
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+/* Placeholder text */
+.react-select__placeholder {
+    color: #aaa;
+}
+
+/* Styles for the dropdown menu */
+.react-select__menu {
+    font-size: 16px;
+    color: #333;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the dropdown options */
+.react-select__option {
+    padding: 10px 20px;
+}
+
+/* Hover effect for dropdown options */
+.react-select__option:hover {
+    background-color: #f0f0f0;
+}
+
+
+/* Container for the message */
+.message-container {
+    border-radius: 14px;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    background-color: #f8f8f800;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Styles for the message text */
+.message {
+    font-size: 16px;
+    color: #2e2e2e9d;
+    margin: 0;
+}
+
+/* Style for the link in the message */
+.message a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Hover effect for the link in the message */
+.message a:hover {
+    text-decoration: underline;
+}
+
+.message-container {
+    position: fixed;
+    bottom: 70px; /* Adjust this value to leave space above the footer */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000; /* Ensure it's above other content */
+}

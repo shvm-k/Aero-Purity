@@ -1,0 +1,71 @@
+/* app.css */
+
+/* Center the container horizontally and add some padding */
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the headings */
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+/* Style the paragraphs */
+p {
+  font-size: 1rem;
+  color: #888;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add a background color to the body */
+body {
+  background-color: #f9f9f9;
+}
+
+
+/* Background gradient */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right, #9780ecb2 0%, #ffc8af 100%);
+}
+
+.container {
+  position: relative; /* Ensure relative positioning for absolute positioning of pseudo-element */
+}
+
+/* Logo styles */
+#logo {
+  max-width: 200px;
+  height: auto;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 999;
+}
+
+/* CSS code to hide the logo */
+.hide-logo {
+  display: none;
+}
+
